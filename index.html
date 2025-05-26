@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Savankumar Pethani • Software Developer</title>
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Ionicons CDN for brand & outline icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">Savankumar Pethani</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="section">
+    <div class="shapes">
+      <div class="shape circle" id="shape1"></div>
+      <div class="shape circle" id="shape2"></div>
+      <div class="shape blob"   id="shape3"></div>
+    </div>
+
+    <div class="hero-content">
+      <img src="assets\WhatsApp Image 2025-05-24 at 4.21.22 PM.jpeg" alt="Profile Picture">
+      <h1 class="hero-title">Hello, I’m Savankumar Pethani.</h1>
+      <p class="hero-sub">Full-Stack Developer passionate about building performant web apps.</p>
+      <a href="#projects" class="btn hero-btn">See My Work ↓</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am Savankumar Pethani, M.S. in Software Engineering at Arizona State University with a B.E. in Computer Engineering from Marwadi University. Through internships, I led development of a scalable, distributed learning platform serving 1,000+ concurrent users, optimized Spark data pipelines by 40%, and built a secure, high-availability video conferencing system with 99% uptime. I delivered an innovative, cross-platform online exam app for 500+ students at 98% satisfaction and a real-time bus-tracking solution with 95% ETA accuracy. Proficient in Python, Java, Kotlin, JavaScript/TypeScript, React, Node.js, Spring Boot, and skilled in Agile, CI/CD with Jenkins/Docker, AWS, Firebase, RESTful APIs, and automated testing.
+    </p>
+    
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li> C++ • Java • SQL • JavaScript • HTML5 • CSS</li>
+      <li> Node.js • Express • NestJS • React • MongoDB</li>
+      <li> Python • Django • Flask</li>
+      <li> Git • AWS • Docker • Kubernetes • Jenkins • Firebase</li>
+      <li> REST API • Distributed Systems(Hadoop,Spark) • CI/CD Pipelines</li>
+      <li> Agile Development • Web Services • Operating Systems</li>
+      <li> Selenium • JUnit</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="https://github.com/Savanpethani/Onilne_exam_appplication" target="_blank">
+          <img src="assets/project1.jpeg" alt="Online Exam Application">
+          <h3>Exam Protoring Application</h3>
+          <p>Live Proctored Application which help detect any cheatin during exam.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="https://github.com/Savanpethani/rock-paper-scissors" target="_blank">
+          <img src="assets\project2.jpeg" alt="Rock Paper Scissors">
+          <h3>AI Powered Game.</h3>
+          <p>Node.js, Python and MongoDB Application.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <img src="assets\project3.jpeg" alt="Live college Bus Tracking">
+        <h3>Bus Tracking Application</h3>
+        <p>Uses GooglemapsAPI To give timely updates on the bus.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="timeline">
+
+    <!-- Entry 1 -->
+    <div class="entry">
+      <h3>Software Developer Intern</h3>
+      <span class="date">Santushti Developers • May 2023 – Sep 2023</span>
+      <ul class="tasks">
+        <li>Led development of a distributed learning platform for iOS (Swift/SwiftUI), supporting 1,000+ concurrent users with Firebase data sync.</li>
+        <li>Designed and executed Spark/HDFS back-end pipelines, optimizing data processing by 40% while ensuring high availability.</li>
+        <li>Built secure REST APIs for course delivery, reducing bottlenecks and improving response times by 25%. Enforced CI/CD via Jenkins, Docker & AWS.</li>
+      </ul>
+    </div>
+
+    <!-- Entry 2 -->
+    <div class="entry">
+      <h3>Software Developer Intern</h3>
+      <span class="date">Inflibnet • Jun 2022 – Sep 2022</span>
+      <ul class="tasks">
+        <li>Developed a high-availability video conferencing platform (Node.js, Python, MongoDB), achieving 99% uptime and real-time Firebase updates.</li>
+        <li>Optimized backend APIs, reducing response times by 15% and automating deployments with Ansible, Jenkins & Docker for zero-downtime updates.</li>
+        <li>Collaborated in Agile sprints—pair programming, code reviews, daily stand-ups—to deliver high-quality features on schedule.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- CONTACT -->
+ <section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <p>Let’s build something amazing together!</p>
+  <ul class="contact-list">
+    <li>
+      <a href="https://www.linkedin.com/in/savankumar-pethani/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="mailto:Savanpethani5@gmail.com">
+        <ion-icon name="mail-outline"></ion-icon>
+        Email
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/Savanpethani" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+        github
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+
+
+  <footer>
+    <p>© 2025 Savankumar Pethani. All rights reserved.</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
